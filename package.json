@@ -21,8 +21,7 @@
     "eslint-plugin-react": "^7.37.3",
     "eslint-plugin-sonarjs": "^1.0.4",
     "prettier": "^3.4.2",
-    "prettier-eslint": "^16.3.0",
-    "typescript": "^5.7.2"
+    "prettier-eslint": "^16.3.0"
   },
   "scripts": {
     "build": "tsc",
@@ -41,7 +40,8 @@
   ],
   "type": "module",
   "dependencies": {
-    "@rollup/pluginutils": "^5.1.4"
+    "@rollup/pluginutils": "^5.1.4",
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
     "rollup": "^4.29.1"
