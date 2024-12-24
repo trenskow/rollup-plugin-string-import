@@ -29,7 +29,8 @@
     "typecheck": "tsc --noEmit",
     "start": "npm run build && node .",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "install": "npm run build"
   },
   "keywords": [
     "rollup",
